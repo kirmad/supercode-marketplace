@@ -1,0 +1,11 @@
+# Build outputs
+NotifyApp/bin/
+NotifyApp/obj/
+
+# Temp files
+tmpclaude-*
+nul
+
+# IDE
+.vs/
+*.user

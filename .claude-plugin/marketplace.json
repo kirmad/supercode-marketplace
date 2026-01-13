@@ -1,0 +1,20 @@
+{
+  "name": "supercode-marketplace",
+  "owner": {
+    "name": "Claude Code Notify",
+    "email": "notify@example.com"
+  },
+  "plugins": [
+    {
+      "name": "notify-windows",
+      "source": ".",
+      "description": "Voice notifications for Claude Code - speaks alerts when window is not in focus",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Notify"
+      },
+      "category": "notifications",
+      "tags": ["notifications", "voice", "alerts", "tts", "speech"]
+    }
+  ]
+}
