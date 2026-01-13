@@ -7,6 +7,6 @@
   },
   "license": "MIT",
   "keywords": ["notifications", "voice", "alerts", "tts", "speech", "accessibility"],
-  "commands": ["./commands/"],
+  "skills": ["./skills/"],
   "hooks": "./hooks/hooks.json"
 }

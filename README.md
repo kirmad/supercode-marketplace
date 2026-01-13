@@ -40,10 +40,9 @@ Voice notifications for Claude Code - speaks alerts when the terminal window is 
 - Natural voices installed (Settings > Time & Language > Speech > Add voices)
 - For best quality, install [NaturalVoiceSAPIAdapter](https://github.com/gexgd0419/NaturalVoiceSAPIAdapter)
 
-## Commands
+## Skills
 
-- `/notify-windows:test` - Test voice notification
-- `/notify-windows:voices` - List available TTS voices
+- `notify-windows:notify-user` - Guides Claude to send crisp voice notifications
 
 ## Configuration
 
