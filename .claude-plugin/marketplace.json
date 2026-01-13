@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "notify-windows",
-      "source": "../plugins/notify-windows",
+      "source": "./plugins/notify-windows",
       "description": "Voice notifications for Claude Code - speaks alerts when window is not in focus",
       "version": "1.0.0",
       "author": {
