@@ -1,6 +1,6 @@
 {
   "name": "notify-windows",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Voice notifications for Claude Code - speaks alerts when window is not in focus",
   "author": {
     "name": "Claude Code Notify"
