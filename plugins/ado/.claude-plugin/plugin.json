@@ -1,0 +1,10 @@
+{
+  "name": "ado",
+  "version": "1.0.0",
+  "description": "Azure DevOps integration for work items, pull requests, and code reviews",
+  "author": {
+    "name": "Claude Code Notify"
+  },
+  "license": "MIT",
+  "keywords": ["azure-devops", "work-items", "pull-requests", "code-review", "ado"]
+}
