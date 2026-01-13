@@ -37,8 +37,30 @@ Voice notifications for Claude Code - speaks alerts when the terminal window is 
 ## Requirements
 
 - Windows 10/11
-- Natural voices installed (Settings > Time & Language > Speech > Add voices)
-- For best quality, install [NaturalVoiceSAPIAdapter](https://github.com/gexgd0419/NaturalVoiceSAPIAdapter)
+- .NET 9 Runtime
+
+## Enabling Natural Voices
+
+By default, Windows only exposes basic voices (David, Zira) to apps. To use high-quality natural voices (Jenny, Aria, Sonia):
+
+### Step 1: Install Natural Voices in Windows
+
+1. Open **Settings > Time & Language > Speech**
+2. Under "Manage voices", click **Add voices**
+3. Install voices like:
+   - Microsoft Jenny Online (Natural)
+   - Microsoft Aria Online (Natural)
+   - Microsoft Sonia Online (Natural, British)
+
+### Step 2: Install NaturalVoiceSAPIAdapter
+
+Windows restricts natural voices to Narrator only. This tool unlocks them for all apps:
+
+1. Download from [NaturalVoiceSAPIAdapter](https://github.com/gexgd0419/NaturalVoiceSAPIAdapter/releases)
+2. Run the installer
+3. Restart any apps using TTS
+
+After installation, natural voices like "Microsoft Jenny Online" will be available to the notify plugin.
 
 ## Skills
 
